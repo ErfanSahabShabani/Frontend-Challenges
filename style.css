@@ -122,6 +122,7 @@ body {
 /* Lower than Desktop */
 @media only screen and (max-width: 1000px) {
   body {
+    padding: 50px;
     text-align: center;
   }
 
@@ -159,6 +160,10 @@ body {
 }
 
 @media only screen and (max-width: 660px) {
+  body {
+    padding: 10px; 
+  }
+  
   .card {
     width: 90%;
   }
