@@ -23,7 +23,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Github Repo Page](https://erfansahabshabani.github.io/Stats-preview-card-component/)
 
 ## My process
 
