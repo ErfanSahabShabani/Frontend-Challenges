@@ -122,7 +122,6 @@ body {
 }
 
 /* Media Queries */
-/* Lower than Desktop */
 @media only screen and (max-width: 1000px) {
   html {
     font-size: 81.25%; 
@@ -173,7 +172,7 @@ body {
 
 @media only screen and (max-width: 660px) {
   html {
-    font-size: 62.5%; 
+    font-size: 72.5%; 
   }
   
   body {
