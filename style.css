@@ -28,8 +28,11 @@
 }
 
 /* Typography */
+html {
+ font-size: 93.75%; 
+}
+
 body {
-  font-size: 93.75%;
   font-family: "Lexend Deca", sans-serif;
   background-color: var(--Very-dark-blue);
 }
@@ -121,6 +124,10 @@ body {
 /* Media Queries */
 /* Lower than Desktop */
 @media only screen and (max-width: 1000px) {
+  html {
+    font-size: 81.25%; 
+  }
+  
   body {
     padding: 50px;
     text-align: center;
@@ -129,6 +136,11 @@ body {
   .header-main {
     font-size: 2rem;
     margin-bottom: 1rem;
+  }
+  
+  .paragraph {
+   font-size: .8rem;
+   padding-right: 0; 
   }
 
   .stats {
@@ -160,6 +172,10 @@ body {
 }
 
 @media only screen and (max-width: 660px) {
+  html {
+    font-size: 62.5%; 
+  }
+  
   body {
     padding: 10px; 
   }
@@ -179,5 +195,16 @@ body {
   .stats {
     flex-direction: column;
     min-height: 14rem;
+  }
+}
+
+
+@media only screen and (max-width: 330px) {
+  html {
+    font-size: 62.5%; 
+  }
+  
+  .card-content {
+   padding: 1.5rem; 
   }
 }
